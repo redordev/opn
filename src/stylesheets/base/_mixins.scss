@@ -1,0 +1,260 @@
+// fonts
+@mixin header-h2 {
+    font-family: $CanelaRegular;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: $black;
+    font-weight: normal;
+    @media (max-width: 768px) {
+        font-size: 24px;
+        line-height: 29px;
+    }    
+}
+@mixin header-h3 {
+    font-family: $CanelaRegular;
+    font-size: 24px;
+    line-height: 29px;   
+    font-weight: normal;
+
+    color: #FFFFFF;  
+    text-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
+}
+@mixin header-h4 {
+    font-family: $CanelaRegular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;  
+    color: $black;
+    font-weight: normal;
+
+} 
+@mixin header-h5 {
+    font-family: $CanelaRegular;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: $black;
+    font-weight: normal;
+}
+@mixin header-h6 {
+    font-family: $CanelaRegular;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+    color: $black;
+    font-weight: normal;
+}
+@mixin cart-number {
+    color: $dark-gold;;
+    font-family: $StyreneBRegular;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+@mixin nav-links {
+    color: #FFFFFF;
+    font-family: $CanelaRegular;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+@mixin paragraph-text {
+    font-family: $StyreneBRegular;
+    font-size: 15px;
+    line-height: 22px;
+    color: $darker-gray;
+}
+
+@mixin footer-paragraph-text {
+    font-family: $StyreneBMedium;
+    font-size: 15px;
+    line-height: 22px;
+    color: white;
+}
+
+@mixin paragraph-text-with-shadow {
+    font-family: $StyreneBRegular;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 14px rgba(0, 0, 0, 0.07);
+}
+@mixin para-small-bold {
+    font-family: $StyreneBMedium;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: $dark-gold;
+}
+@mixin small-text {
+    font-family: $StyreneBRegular;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $darker-gray;
+}
+@mixin button-small {
+    font-family: $StyreneBRegular;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $black;
+}
+@mixin placeholder {
+    &::-webkit-input-placeholder {
+        @content;
+    }
+
+
+    &:-moz-placeholder {
+        @content;
+    }
+
+
+    &::-moz-placeholder {
+        @content;
+    }
+
+    &:-ms-input-placeholder {
+        @content;
+    }
+
+}
+
+@mixin transition-3s-eio {
+    transition: all 0.3s ease-in-out;
+}
+
+@mixin hover-dark-gold {
+    &:hover {
+        color: $dark-gold;	                  
+    }
+}
+
+@mixin hover-before-dark-gold {
+    &:hover {
+        &:before {
+            color: $dark-gold;	
+        }                    
+    }
+}
+
+// layout
+@mixin container {
+    width: 83%;
+    margin: 0 auto;
+    padding-left: 4%;
+    padding-right: 4%;
+    @media (max-width: 1420px) {
+        width: 88%;        
+    }
+    @media (max-width: 1000px) {
+        padding-left: 0;
+        padding-right: 0;
+    }       
+    @media (max-width: 374px) {
+        width: 92%;
+    }    
+}
+
+@mixin mobile-padding {
+    @media (max-width: 768px) {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+}
+
+@mixin flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-center-start {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@mixin flex-center-end {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@mixin flex-center-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin flex-center-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@mixin flex-start-center {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+@mixin flex-start-between {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+@mixin flex-start-end {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+@mixin flex-start-start {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+@mixin flex-end-between {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+@mixin flex-end-around {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+@mixin flex-end-start {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+@mixin flex-end-center {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+

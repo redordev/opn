@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>OPN</title>
+  <meta name="description" content="" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Header start -->
+        <header id="header">
+            <div class="container">
+                <div class="header-left">
+                    <nav id="menu-left">
+                        <ul>
+                            <li class="home-icon"><a href="#" title="Home"><span class="icon-home"></span></a></li>
+                            <li><a href="#" title="Le bar connecté">Le bar connecté</a></li>
+                            <li><a href="#" title="Cartouches">Cartouches</a></li>
+                            <li><a href="#" title="Accessoires">Accessoires</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-logo">
+                    <div class="header-mobile-button">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4 6.25C4 5.55964 4.55964 5 5.25 5H18.75C19.4404 5 20 5.55964 20 6.25C20 6.94036 19.4404 7.5 18.75 7.5H5.25C4.55964 7.5 4 6.94036 4 6.25Z" fill="white"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4 12.25C4 11.5596 4.55964 11 5.25 11H18.75C19.4404 11 20 11.5596 20 12.25C20 12.9404 19.4404 13.5 18.75 13.5H5.25C4.55964 13.5 4 12.9404 4 12.25Z" fill="white"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4 18.25C4 17.5596 4.55964 17 5.25 17H18.75C19.4404 17 20 17.5596 20 18.25C20 18.9404 19.4404 19.5 18.75 19.5H5.25C4.55964 19.5 4 18.9404 4 18.25Z" fill="white"/>
+                            </svg>
+                    </div>                    
+                    <a href="/" title="OPN">
+                        <svg class="logo-white" width="100" height="33" viewBox="0 0 100 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0)">
+                                <path d="M83.8352 30.4148L86.1271 32.022L100 12.2077L97.7082 10.6063" fill="#E4C291" />
+                                <path d="M53.7567 6.79431C53.7567 9.43429 52.0799 10.8906 49.0396 10.8906L39.5995 10.8906L39.5995 2.73281L49.0396 2.73281C52.1263 2.73281 53.7567 4.13693 53.7567 6.79431ZM48.97 -3.38583e-07L36.6984 -8.74989e-07L36.6984 24.0209L39.5995 24.0209L39.5995 13.6234L48.97 13.6234C53.8205 13.6234 56.7158 11.0589 56.7158 6.7595C56.7158 2.46591 53.896 -1.23259e-07 48.97 -3.38583e-07Z"
+                                fill="white" />
+                                <path d="M79.6692 -1.22498e-07L79.6692 18.8744L64.7113 0.139251L64.6011 -7.81149e-07L61.3983 -9.21147e-07L61.3983 24.0209L64.2297 24.0209L64.2297 3.96287L80.3423 24.0499L80.4525 24.1891L82.4717 24.1891L82.4717 0"
+                                fill="white" />
+                                <path d="M16.008 2.89526C23.2375 2.89526 29.1208 8.77864 29.1208 16.0081C29.1208 23.2376 23.2375 29.121 16.008 29.121C8.77852 29.121 2.89514 23.2376 2.89514 16.0081C2.89514 8.77864 8.77852 2.89526 16.008 2.89526ZM16.008 -8.32913e-06C7.16552 -8.71565e-06 -0.000137642 7.16564 -0.000138029 16.0081C-0.000138415 24.8506 7.16552 32.0162 16.008 32.0162C24.8505 32.0162 32.0161 24.8506 32.0161 16.0081C32.0161 7.16564 24.8505 -7.94262e-06 16.008 -8.32913e-06Z"
+                                fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0">
+                                    <rect width="32.022" height="100" fill="white" transform="translate(100) rotate(90)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                        <svg class="logo-black" width="100" height="33" viewBox="0 0 100 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0)">
+                                <path d="M83.8352 30.4148L86.1271 32.022L100 12.2077L97.7082 10.6063" fill="#E4C291"/>
+                                <path d="M53.7567 6.79431C53.7567 9.43429 52.0799 10.8906 49.0396 10.8906L39.5995 10.8906L39.5995 2.73281L49.0396 2.73281C52.1263 2.73281 53.7567 4.13693 53.7567 6.79431ZM48.97 -3.38583e-07L36.6984 -8.74989e-07L36.6984 24.0209L39.5995 24.0209L39.5995 13.6234L48.97 13.6234C53.8205 13.6234 56.7158 11.0589 56.7158 6.7595C56.7158 2.46591 53.896 -1.23259e-07 48.97 -3.38583e-07Z" fill="#231F10"/>
+                                <path d="M79.6692 -1.22498e-07L79.6692 18.8744L64.7113 0.139251L64.6011 -7.81149e-07L61.3983 -9.21147e-07L61.3983 24.0209L64.2297 24.0209L64.2297 3.96287L80.3423 24.0499L80.4525 24.1891L82.4717 24.1891L82.4717 0" fill="#231F10"/>
+                                <path d="M16.008 2.89527C23.2375 2.89527 29.1208 8.77865 29.1208 16.0081C29.1208 23.2376 23.2375 29.121 16.008 29.121C8.77852 29.121 2.89514 23.2376 2.89514 16.0081C2.89514 8.77865 8.77852 2.89527 16.008 2.89527ZM16.008 -6.99737e-07C7.16552 -1.08625e-06 -0.000137642 7.16565 -0.000138029 16.0081C-0.000138415 24.8506 7.16552 32.0162 16.008 32.0162C24.8505 32.0162 32.0161 24.8506 32.0161 16.0081C32.0161 7.16565 24.8505 -3.1322e-07 16.008 -6.99737e-07Z" fill="#231F10"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0">
+                                    <rect width="32.022" height="100" fill="white" transform="translate(100) rotate(90)"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                            
+                    </a>
+                </div>
+
+                <div class="header-right">
+                    <nav id="menu-right">
+                        <ul>
+                            <li><a href="#" title="Cocktails">Cocktails</a></li>
+                            <li><a href="#" title="Food">Food</a></li>
+                            <li><a href="#" title="Recevoir">Recevoir</a></li>
+                        </ul>
+                    </nav>
+                    <div class="actions">
+                        <a href="#" title="Search"><span class="icon-search"></span></a>
+                        <a href="#" title="My Account"><span class="icon-user"></span></a>
+                        <div class="cart">
+                            <a href="#" title="OPN Cart" name="opn_cart">
+                                <div class="cart-amount">1</div><span class="icon-cart"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+
+            <div class="lower-header">
+                <div class="delivery-info">
+                    <div class="delivery-left">
+                        <span class="icon-lock"></span> Paiement sécurisé par carte bancaire et Paypal
+                    </div>
+                    <div class="delivery-center">
+                        <span class="icon-box"></span> Livraison gratuite dès 150€
+                    </div>
+                    <div class="delivery-right">
+                        <span class="icon-delivery"></span> Livraison dès 24h dans toute la France
+                    </div>
+                </div>
+
+            </div>
+
+
+        </header>
+        <!-- Header end -->
+
+        <!-- mobile nav start -->
+        <div class="mobile-menu">
+            <div class="close-icon">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.6438 2.07621C18.1187 1.60125 18.1187 0.831183 17.6438 0.356221C17.1688 -0.11874 16.3988 -0.11874 15.9238 0.356221L9 7.28001L2.07621 0.356221C1.60125 -0.11874 0.831183 -0.11874 0.356221 0.356221C-0.11874 0.831183 -0.11874 1.60125 0.356221 2.07621L7.28001 9L0.356221 15.9238C-0.11874 16.3988 -0.11874 17.1688 0.356221 17.6438C0.831183 18.1187 1.60125 18.1187 2.07621 17.6438L9 10.72L15.9238 17.6438C16.3988 18.1187 17.1688 18.1187 17.6438 17.6438C18.1187 17.1688 18.1187 16.3988 17.6438 15.9238L10.72 9L17.6438 2.07621Z" fill="#231F10"/>
+                </svg>
+            </div>
+            <div class="logo">
+                <a href="/">
+                    <svg class="logo-black" width="100" height="33" viewBox="0 0 100 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0)">
+                            <path d="M83.8352 30.4148L86.1271 32.022L100 12.2077L97.7082 10.6063" fill="#E4C291"/>
+                            <path d="M53.7567 6.79431C53.7567 9.43429 52.0799 10.8906 49.0396 10.8906L39.5995 10.8906L39.5995 2.73281L49.0396 2.73281C52.1263 2.73281 53.7567 4.13693 53.7567 6.79431ZM48.97 -3.38583e-07L36.6984 -8.74989e-07L36.6984 24.0209L39.5995 24.0209L39.5995 13.6234L48.97 13.6234C53.8205 13.6234 56.7158 11.0589 56.7158 6.7595C56.7158 2.46591 53.896 -1.23259e-07 48.97 -3.38583e-07Z" fill="#231F10"/>
+                            <path d="M79.6692 -1.22498e-07L79.6692 18.8744L64.7113 0.139251L64.6011 -7.81149e-07L61.3983 -9.21147e-07L61.3983 24.0209L64.2297 24.0209L64.2297 3.96287L80.3423 24.0499L80.4525 24.1891L82.4717 24.1891L82.4717 0" fill="#231F10"/>
+                            <path d="M16.008 2.89527C23.2375 2.89527 29.1208 8.77865 29.1208 16.0081C29.1208 23.2376 23.2375 29.121 16.008 29.121C8.77852 29.121 2.89514 23.2376 2.89514 16.0081C2.89514 8.77865 8.77852 2.89527 16.008 2.89527ZM16.008 -6.99737e-07C7.16552 -1.08625e-06 -0.000137642 7.16565 -0.000138029 16.0081C-0.000138415 24.8506 7.16552 32.0162 16.008 32.0162C24.8505 32.0162 32.0161 24.8506 32.0161 16.0081C32.0161 7.16565 24.8505 -3.1322e-07 16.008 -6.99737e-07Z" fill="#231F10"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0">
+                                <rect width="32.022" height="100" fill="white" transform="translate(100) rotate(90)"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+            </div>
+            <nav id="menu-top">
+                <h4>La Boutique
+                    <!-- line start -->
+                    <div class="line-separator">
+                        <svg width="18" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.37005e-07 22.1989L2.55205 24L18 1.79464L15.448 -1.11553e-07" fill="#DFB57B"/>
+                        </svg>
+                    </div>
+                    <!-- line start -->     
+                </h4>
+                <ul>
+                    <li><a href="#" title="Le bar connecté">Le bar connecté</a></li>
+                    <li><a href="#" title="Cartouches">Cartouches</a></li>
+                    <li><a href="#" title="Accessoires">Accessoires</a></li>
+                </ul>
+            </nav>
+            <nav id="menu-bottom">
+                <h4>Le Média
+                    <!-- line start -->
+                    <div class="line-separator">
+                        <svg width="18" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.37005e-07 22.1989L2.55205 24L18 1.79464L15.448 -1.11553e-07" fill="#DFB57B"/>
+                        </svg>
+                    </div>
+                    <!-- line start -->                        
+                </h4>
+                <ul>
+                    <li><a href="#" title="Cocktails">Cocktails</a></li>
+                    <li><a href="#" title="Food">Food</a></li>
+                    <li><a href="#" title="Recevoir">Recevoir</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- mobile nav end -->
+
+        <!-- Hero start -->
+        <section class="home-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>L’experience cocktail à la maison</h1>
+                    <div class="offer">
+                        <h3>Opn, votre bar connecté à domicile</h3>
+                        <p class="with-shadow">Le premier bar connecté qui vous permet de créer des centaines de cocktails à la maison en s’amusant.</p>
+                        <div class="hero-video-play"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 12L7 18.9282L7 5.0718L19 12Z" fill="white"/>
+                            </svg> <a href="#" class="link">Découvrir OPN en détails - 1’40</a></div>
+                        <a href="#" class="button">Découvrir le starter pack</a>
+                        <a href="#" class="link home-bottom-link">Déja OPNer ? Rechargez votre bar.</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hero end -->
+   
+            
+        <!-- video player title start -->
+        <section class="white-container-top">               
+            <div class="video-player-title">
+                <!-- line start -->
+                <div class="line-separator">
+                    <svg width="18" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37005e-07 22.1989L2.55205 24L18 1.79464L15.448 -1.11553e-07" fill="#DFB57B"/>
+                    </svg>
+                </div>
+                <!-- line start -->                  
+                <h2>Redécouvrez le plaisir d’une soirée cocktails à la maison</h2>
+            </div>
+        </section>
+        <!-- video player title end -->
+
+        <!-- video player start -->
+        <section class="white-container">
+            <div class="video-player-wrapper">
+                <div class="icons-left">
+                    <div class="icon-group">
+                        <span class="icon-cocktail"></span>
+                        <p>Des recettes à découvrir et personnaliser en fonction de vos goûts</p>
+                    </div>
+
+                    <div class="icon-group">
+                        <span class="icon-hourglass"></span>
+                        <p>Des dosages précis pour réaliser vos cocktails favoris</p>
+                    </div>
+                    
+                    <div class="icon-group">
+                        <span class="icon-world"></span>
+                        <p>Des alcools reconnus mondialement</p>
+                    </div>                    
+                </div>
+                <div class="video-player">
+                    <img src="/images/home-video-still.jpg" alt="Video Still">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 12L7 18.9282L7 5.0718L19 12Z" fill="white"/>
+                        </svg>
+                </div>
+                <div class="icons-right">
+                    <div class="icon-group">
+                        <span class="icon-refill"></span>
+                        <p>Une gestion et un réapprovisionnement facilité de votre bar</p>
+                    </div>
+
+                    <div class="icon-group">
+                        <span class="icon-shield"></span>
+                        <p>Un accès contrôlé et sécurisé à vos alcools préférés</p>
+                    </div>
+                    
+                    <div class="icon-group">
+                        <span class="icon-union"></span>
+                        <p>Un design moderne et élégant
+                            s’intégrant dans votre quotidien</p>
+                    </div>                                             
+                </div>
+
+                <div class="icons-slider">
+                    <div class="icon-group">
+                        <span class="icon-cocktail"></span>
+                        <p>Des recettes à découvrir et personnaliser en fonction de vos goûts</p>
+                    </div>
+    
+                    <div class="icon-group">
+                        <span class="icon-hourglass"></span>
+                        <p>Des dosages précis pour réaliser vos cocktails favoris</p>
+                    </div>
+                    
+                    <div class="icon-group">
+                        <span class="icon-world"></span>
+                        <p>Des alcools reconnus mondialement</p>
+                    </div>        
+                    <div class="icon-group">
+                        <span class="icon-refill"></span>
+                        <p>Une gestion et un réapprovisionnement facilité de votre bar</p>
+                    </div>
+    
+                    <div class="icon-group">
+                        <span class="icon-shield"></span>
+                        <p>Un accès contrôlé et sécurisé à vos alcools préférés</p>
+                    </div>
+                    
+                    <div class="icon-group">
+                        <span class="icon-union"></span>
+                        <p>Un design moderne et élégant
+                            s’intégrant dans votre quotidien</p>
+                    </div>                                  
+                </div>                
+            </div>
+
+
+        </section>
+        <!-- video player end -->  
+        
+        <!-- app details start -->  
+        <section class="gray-section-heading">
+            <div class="container">
+                <!-- line start -->
+                <div class="line-separator">
+                    <svg width="18" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37005e-07 22.1989L2.55205 24L18 1.79464L15.448 -1.11553e-07" fill="#DFB57B"/>
+                    </svg>
+                </div>
+                <!-- line start -->     
+                <h2>Vos cocktails favoris à réaliser à la maison grâce à l’app Cocktails/Opn !</h2>
+
+                <div class="mobile-app-section">
+                    <div class="app-images">
+                        <a href="#"><img src="/images/play.png" alt="Google Play"></a><a href="#"><img src="/images/appstore.png" alt="App Store"></a>
+                    </div>
+
+                    <div class="app-accordion">
+                        <div class="app-section active">
+                            <div class="section-header">
+                                <a href="#">Des idées selon vos envies</a>
+                            </div>
+                            <div class="section-content ">
+                                <img src="/images/app-mobile.png" alt="App">
+                                <div class="section-inner-content">
+                                    <h4>TROUVEZ LES COCKTAILS REALISABLES AVEC LES INGREDIENTS DISPONIBLES CHEZ VOUS</h4>
+                                    <p>Nous nous sommes tous déjà retrouvés à la maison avec l’envie de prendre un verre sans la motivation pour faire des courses. Avec la fonctionnalité « Frigo », il suffit de rentrer les ingrédients disponibles chez vous et l’application vous trouvera tous les cocktails réalisables sans sortir de chez vous ! Pour aller plus loin, l’app vous recommandera aussi les ingrédients qui vous manquent pour débloquer toujours plus de recettes.</p>                                                               
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="app-accordion">
+                        <div class="app-section">
+                            <div class="section-header">
+                                <a href="#">Des recommandations personnalisées</a>
+                            </div>
+                            <div class="section-content">
+                                <div class="section-inner-content">
+                                    <p>section 2</p>
+                                </div>                                                                                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="app-accordion">                        
+                        <div class="app-section">
+                            <div class="section-header">
+                                <a href="#">+ 300 recettes exclusives</a>
+                            </div>
+                            <div class="section-content">
+                                <div class="section-inner-content">
+                                    <p>section 3</p>
+                                </div>                                                              
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="app-accordion">                        
+                        <div class="app-section">
+                            <div class="section-header">
+                                <a href="#">Des recettes pas à pas</a>
+                            </div>
+                            <div class="section-content">
+                                <div class="section-inner-content">
+                                    <p>section 4</p>
+                                </div>                                                               
+                            </div>
+                        </div>                            
+                    </div>
+                </div>
+
+                <ul class="home-tab-headings">
+                    <li class="active" data-tab="tab1">
+                        <a href="#">Des idées selon vos envies</a>
+                    </li>
+                    <li data-tab="tab2">
+                        <a href="#">Des recommandations personnalisées</a>
+                    </li>
+                    <li data-tab="tab3">
+                        <a href="#">+ 300 recettes exclusives</a>
+                    </li>
+                    <li data-tab="tab4">
+                        <a href="#">Des recettes pas à pas</a>
+                    </li>                                                            
+                </ul>
+            </div>
+        </section>
+        <section class="gray-section">
+            <div class="container">
+                <div class="tab active" id="tab1">
+                    <div class="app-slider">
+                        <div class="app-slide">
+                            <div class="slide-image">
+                                <img src="/images/phone.png" alt="Phone">
+                            </div>
+                            <div class="slide-content">
+                                <h4>TROUVEZ LES COCKTAILS REALISABLES AVEC LES INGREDIENTS DISPONIBLES CHEZ VOUS</h4>
+                                <p>Nous nous sommes tous déjà retrouvés à la maison avec l’envie de prendre un verre sans la motivation pour faire des courses. Avec la fonctionnalité « Frigo », il suffit de rentrer les ingrédients disponibles chez vous et l’application vous trouvera tous les cocktails réalisables sans sortir de chez vous ! Pour aller plus loin, l’app vous recommandera aussi les ingrédients qui vous manquent pour débloquer toujours plus de recettes.</p>
+                                <div class="app-images"><a href="#"><img src="/images/play.png" alt="Google Play"></a><a href="#"><img src="/images/appstore.png" alt="App Store"></a></div>
+                            </div>
+                        </div>
+
+
+                        <div class="app-slide">
+                            <div class="slide-image">
+                                <img src="/images/phone.png" alt="Phone">
+                            </div>
+                            <div class="slide-content">
+                                <h4>2. TROUVEZ LES COCKTAILS REALISABLES AVEC LES INGREDIENTS DISPONIBLES CHEZ VOUS</h4>
+                                <p>2. Nous nous sommes tous déjà retrouvés à la maison avec l’envie de prendre un verre sans la motivation pour faire des courses. Avec la fonctionnalité « Frigo », il suffit de rentrer les ingrédients disponibles chez vous et l’application vous trouvera tous les cocktails réalisables sans sortir de chez vous ! Pour aller plus loin, l’app vous recommandera aussi les ingrédients qui vous manquent pour débloquer toujours plus de recettes.</p>
+                                <div class="app-images"><a href="#"><img src="/images/play.png" alt="Google Play"></a><a href="#"><img src="/images/appstore.png" alt="App Store"></a></div>
+                            </div>
+                        </div>     
+                        
+                        <div class="app-slide">
+                            <div class="slide-image">
+                                <img src="/images/phone.png" alt="Phone">
+                            </div>
+                            <div class="slide-content">
+                                <h4>3 TROUVEZ LES COCKTAILS REALISABLES AVEC LES INGREDIENTS DISPONIBLES CHEZ VOUS</h4>
+                                <p>3 Nous nous sommes tous déjà retrouvés à la maison avec l’envie de prendre un verre sans la motivation pour faire des courses. Avec la fonctionnalité « Frigo », il suffit de rentrer les ingrédients disponibles chez vous et l’application vous trouvera tous les cocktails réalisables sans sortir de chez vous ! Pour aller plus loin, l’app vous recommandera aussi les ingrédients qui vous manquent pour débloquer toujours plus de recettes.</p>
+                                <div class="app-images"><a href="#"><img src="/images/play.png" alt="Google Play"></a><a href="#"><img src="/images/appstore.png" alt="App Store"></a></div>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="tab" id="tab2">tab 2</div>
+                <div class="tab" id="tab3">tab 3</div>
+                <div class="tab" id="tab4">tab 4</div>
+
+
+
+            </div>
+        </section>        
+        <!-- app details end -->  
+        
+        <!-- articles start -->
+        <section class="white-container">        
+            <!-- line start -->
+            <div class="line-separator">
+                <svg width="18" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.37005e-07 22.1989L2.55205 24L18 1.79464L15.448 -1.11553e-07" fill="#DFB57B"/>
+                </svg>
+            </div>
+            <!-- line start -->                        
+            <div class="articles-wrapper">             
+                <h2>Besoin d’inspiration pour votre prochaine soirée maison ?</h2>
+                <p>Des centaines de recettes ou idées à découvrir sur notre application ou sur notre magazine</p>
+                <h5>Les derniers articles</h5>
+                <div class="articles">
+                    <div class="article">
+                        <img src="/images/article.jpg" alt="Article">
+                        <div class="article-content">
+                            <p class="small-bold">Cocktails</p>
+                            <h6>Une histoire amère (qui finit bien)</h6>
+                        </div>
+                    </div>
+
+                    <div class="article">
+                        <img src="/images/article.jpg" alt="Article">
+                        <div class="article-content">
+                            <p class="small-bold">Cocktails</p>
+                            <h6>Une histoire amère (qui finit bien)</h6>
+                        </div>
+                    </div>
+                    
+                    <div class="article">
+                        <img src="/images/article.jpg" alt="Article">
+                        <div class="article-content">
+                            <p class="small-bold">Cocktails</p>
+                            <h6>Une histoire amère (qui finit bien)</h6>
+                        </div>
+                    </div>
+                    
+                    <div class="article">
+                        <img src="/images/article.jpg" alt="Article">
+                        <div class="article-content">
+                            <p class="small-bold">Cocktails</p>
+                            <h6>Une histoire amère (qui finit bien)</h6>
+                        </div>
+                    </div>                    
+                </div>
+                <a href="#" class="button-small">Voir plus de publications</a>
+            </div>
+        </section>
+        <!-- articles end -->        
+
+        <!-- drinks start -->
+        <section class="white-container">                             
+            <div class="drinks-wrapper">         
+                <h5>Notre selection de cocktails</h5>
+                <div class="drinks">
+                    <div class="drink">
+                        <img src="/images/drink1.png" alt="Drink">
+                        <p>Martinez</p>
+                        <div class="drink-points">
+                            <div class="drink-point">
+                                <img src="/images/drink-point.png" alt="Drink">
+                                <p class="small-text">Absolut</p>
+                            </div>
+                            <div class="drink-point">
+                                <span class="icon-sweet"></span>
+                                <p class="small-text">Sucré</p>
+                            </div>      
+                            <div class="drink-point">
+                                <span class="icon-herb"></span>
+                                <p class="small-text">Herbacé</p>
+                            </div>                                                        
+                        </div>
+                    </div>
+
+                    <div class="drink">
+                        <img src="/images/drink2.png" alt="Drink">
+                        <p>Martinez</p>
+                        <div class="drink-points">
+                            <div class="drink-point">
+                                <img src="/images/drink-point.png" alt="Drink">
+                                <p class="small-text">Absolut</p>
+                            </div>
+                            <div class="drink-point">
+                                <span class="icon-sweet"></span>
+                                <p class="small-text">Sucré</p>
+                            </div>      
+                            <div class="drink-point">
+                                <span class="icon-herb"></span>
+                                <p class="small-text">Herbacé</p>
+                            </div>                                                        
+                        </div>
+                    </div>
+                    
+                    <div class="drink">
+                        <img src="/images/drink3.png" alt="Drink">
+                        <p>Martinez</p>
+                        <div class="drink-points">
+                            <div class="drink-point">
+                                <img src="/images/drink-point.png" alt="Drink">
+                                <p class="small-text">Absolut</p>
+                            </div>
+                            <div class="drink-point">
+                                <span class="icon-sweet"></span>
+                                <p class="small-text">Sucré</p>
+                            </div>      
+                            <div class="drink-point">
+                                <span class="icon-herb"></span>
+                                <p class="small-text">Herbacé</p>
+                            </div>                                                        
+                        </div>
+                    </div>
+                    
+                    <div class="drink">
+                        <img src="/images/drink4.png" alt="Drink">
+                        <p>Martinez</p>
+                        <div class="drink-points">
+                            <div class="drink-point">
+                                <img src="/images/drink-point.png" alt="Drink">
+                                <p class="small-text">Absolut</p>
+                            </div>
+                            <div class="drink-point">
+                                <span class="icon-sweet"></span>
+                                <p class="small-text">Sucré</p>
+                            </div>      
+                            <div class="drink-point">
+                                <span class="icon-herb"></span>
+                                <p class="small-text">Herbacé</p>
+                            </div>                                                        
+                        </div>
+                    </div>                    
+                </div>
+                <a href="#" class="button-small">Voir plus de recettes</a>
+            </div>
+        </section>
+        <!-- drinks end -->
+
+
+        <!-- footer end -->
+        <footer>
+            <div class="footer-upper">
+                <div class="footer-upper-wrapper">
+                    <div class="newsletter">
+                        <p class="footer-paragraph-text">Des cocktails dans votre boîte mail !</p>
+                        <p class="small-text">Nos recettes, nos conseils et nos histoires tous les mois.</p>
+                        <form action="">
+                            <input type="email" name="email" id="email" placeholder="Votre adresse mail ..."><button>Je m’inscris</button>
+                        </form>
+                    </div>
+                    <div class="footer-social">
+                        <p class="footer-paragraph-text">Rejoignez-nous</p>
+                        <p class="small-text">Nos recettes, nos conseils et nos histoires tous les mois.</p>
+                        <div class="footer-social-buttons">
+                            <a href="#" class="button-social"><span class="icon-facebook"></span> Facebook</a>
+                            <a href="#" class="button-social"><span class="icon-instagram"></span> Instagram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-lower">
+                <div class="container">
+                    <a href="#" class="link">CGU</a>
+                    <a href="#" class="link">Mentions légales</a>
+                    <a href="#" class="link">Cookies</a>
+                </div>
+            </div>
+        </footer>
+        <!-- footer end -->
+    </div>
+</body>
+
+</html>

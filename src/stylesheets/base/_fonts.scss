@@ -1,0 +1,228 @@
+@font-face {
+  font-family: 'CanelaRegularItalic';
+  src: 
+    url('../fonts/Canela-RegularItalic-Web.woff2') format('woff2'),
+    url('../fonts/Canela-RegularItalic-Web.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;    
+}
+
+
+@font-face {
+  font-family: 'CanelaRegular';
+  src: 
+    url('../fonts/Canela-Regular-Web.woff2') format('woff2'),
+    url('../fonts/Canela-Regular-Web.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;        
+}
+
+
+@font-face {
+  font-family: 'OpenSansLight';
+  src: 
+    url('../fonts/opensans-300.woff2') format('woff2'),
+    url('../fonts/opensans-300.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;           
+}
+
+
+@font-face {
+  font-family: 'OpenSansRegular';
+  src: 
+    url('../fonts/opensans-400.woff2') format('woff2'),
+    url('../fonts/opensans-400.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;        
+}
+
+
+@font-face {
+  font-family: 'OpenSansSemiBold';
+  src: 
+    url('../fonts/opensans-600.woff2') format('woff2'),
+    url('../fonts/opensans-600.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;    
+}
+
+
+@font-face {
+  font-family: 'OpenSansBold';
+  src: 
+    url('../fonts/opensans-700.woff2') format('woff2'),
+    url('../fonts/opensans-700.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;        
+}
+
+
+@font-face {
+  font-family: 'StyreneBBoldItalic';
+  src: 
+    url('../fonts/StyreneB-BoldItalic-Web.woff2') format('woff2'),
+    url('../fonts/StyreneB-BoldItalic-Web.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;       
+}
+
+
+@font-face {
+  font-family: 'StyreneBBold';
+  src: 
+    url('../fonts/StyreneB-Bold-Web.woff2') format('woff2'),
+    url('../fonts/StyreneB-Bold-Web.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;       
+}
+
+
+@font-face {
+  font-family: 'StyreneBMediumItalic';
+  src: 
+    url('../fonts/StyreneB-MediumItalic-Web.woff2') format('woff2'),
+    url('../fonts/StyreneB-MediumItalic-Web.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;      
+}
+
+
+
+@font-face {
+  font-family: 'StyreneBMedium';
+  src: 
+    url('../fonts/StyreneB-Medium-Web.woff2') format('woff2'),
+    url('../fonts/StyreneB-Medium-Web.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;     
+}
+
+
+@font-face {
+  font-family: 'StyreneBRegularItalic';
+  src: 
+    url('../fonts/StyreneB-RegularItalic-Web.woff2') format('woff2'),
+    url('../fonts/StyreneB-RegularItalic-Web.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;   
+}
+
+
+@font-face {
+  font-family: 'StyreneBRegular';
+  src: 
+    url('../fonts/StyreneB-Regular-Web.woff2') format('woff2'),
+    url('../fonts/StyreneB-Regular-Web.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;       
+}
+
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?7mr8bz');
+  src:  url('../fonts/icomoon.eot?7mr8bz#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?7mr8bz') format('truetype'),
+    url('../fonts/icomoon.woff?7mr8bz') format('woff'),
+    url('../fonts/icomoon.svg?7mr8bz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-paypal:before {
+  content: "\e900";
+}
+.icon-arrow-left:before {
+  content: "\e901";
+}
+.icon-arrow-right:before {
+  content: "\e902";
+}
+.icon-box:before {
+  content: "\e903";
+}
+.icon-cart:before {
+  content: "\e904";
+}
+.icon-check:before {
+  content: "\e905";
+}
+.icon-cocktail:before {
+  content: "\e906";
+}
+.icon-contact:before {
+  content: "\e907";
+}
+.icon-delivery:before {
+  content: "\e908";
+}
+.icon-eye:before {
+  content: "\e909";
+}
+.icon-facebook:before {
+  content: "\e90a";
+}
+.icon-herb:before {
+  content: "\e90b";
+}
+.icon-home:before {
+  content: "\e90c";
+}
+.icon-hourglass:before {
+  content: "\e90d";
+}
+.icon-instagram:before {
+  content: "\e90e";
+}
+.icon-lock:before {
+  content: "\e90f";
+}
+.icon-mastercard:before {
+  content: "\e910";
+}
+.icon-question:before {
+  content: "\e911";
+}
+.icon-refill:before {
+  content: "\e912";
+}
+.icon-search:before {
+  content: "\e913";
+}
+.icon-shield:before {
+  content: "\e914";
+}
+.icon-sweet:before {
+  content: "\e915";
+}
+.icon-union:before {
+  content: "\e916";
+}
+.icon-user:before {
+  content: "\e917";
+}
+.icon-visa:before {
+  content: "\e918";
+}
+.icon-world:before {
+  content: "\e919";
+}

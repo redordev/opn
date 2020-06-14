@@ -1,0 +1,13 @@
+// Add your styles here
+@import "base/variables";
+@import "base/fonts";
+
+// Global partials.
+// -----------------------------------------------------------------------------
+@import "base/mixins";
+
+// Partials.
+// --------------------------------------------------
+@import "base/global";
+@import 'layouts/**/*.scss';
+@import 'components/**/*.scss';

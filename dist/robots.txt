@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: http://opn.com.hk/sitemap.xml
+Host: opn.com.hk
